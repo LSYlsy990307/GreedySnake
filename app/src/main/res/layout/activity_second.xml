@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@drawable/menu">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle1"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="66dp"
+        android:id="@+id/button_start"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2"
+        android:layout_marginTop="192dp"
+        android:layout_marginLeft="190dp"
+        android:id="@+id/button_difficulty"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle3"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="79dp"
+        android:id="@+id/button_music"
+        android:layout_below="@+id/button_start"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="205dp"
+        android:id="@+id/button_about"
+        android:layout_below="@id/button_difficulty"/>
+
+</RelativeLayout>

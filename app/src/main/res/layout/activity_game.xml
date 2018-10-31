@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/start"
+        android:id="@+id/game_start"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pause"
+        android:id="@+id/game_stop"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/game_start"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stop"
+        android:id="@+id/game_quit"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/game_start"/>
+    <com.xdw.greedysnake.SnakeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/snake"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left"
+        android:id="@+id/left"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="38dp"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/right"
+        android:id="@+id/right"
+        android:layout_marginLeft="230dp"
+        android:layout_marginBottom="38dp"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/up"
+        android:id="@+id/up"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/down"
+        android:id="@+id/down"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_show"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

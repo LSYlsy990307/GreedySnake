@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GreedySnake</string>
+    <string name="text1">账户: </string>
+    <string name="text2">密码: </string>
+    <string name="remember_text">记住密码</string>
+    <string name="login_button">登录</string>
+    <string name="difficulty1">简单</string>
+    <string name="difficulty2">一般</string>
+    <string name="difficulty3">困难</string>
+    <string name="music_button">打开背景音乐</string>
+    <string name="writer">开发者：刘思逸</string>
+    <string name="about">\t游戏名：贪吃蛇\n\t该游戏是经典手机游戏，既简单又耐玩。通过控制蛇前行方向吃苹果，使得蛇变长，从而获得积分。
+        用游戏界面上的模拟方向盘控制蛇上下左右的方向，寻找吃的东西，每吃一口就能得到一个积分。而且每吃到一个苹果，不仅蛇的身子会变长，
+        蛇的速度也会加快，难度不断越大。注意：在游戏当中，蛇不能碰墙，也不能咬到自己的身体。\n\t去获得更高的积分吧！</string>
+    <string name="mode_ready">欢迎进入游戏\n点击按钮开始游戏</string>
+    <string name="mode_pause">暂停\n点击开始按钮继续游戏</string>
+    <string name="mode_quit">游戏结束</string>
+    <string name="mode_lose_prefix">游戏结束\n累计吃到的果子：</string>
+    <string name="mode_lose_suffix">点击重新开始</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_difficulty">DifficultyActivity</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+</resources>
